@@ -1,0 +1,122 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+	background: linear-gradient(to bottom, #141414, #000000);
+	color: #fff;
+	padding: 20px;
+	font-family: "Gotham", sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #e50914;
+}
+
+/* Estilo dos filmes */
+#filmes {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 40px;
+}
+
+#filmes li {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+}
+
+#filmes li:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#filmes img {
+	width: 100%;
+}
+
+#filmes .filme-titulo {
+	padding: 20px;
+	background-color: #141414;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+#filmes .filme-titulo:hover {
+	background-color: #e50914;
+	cursor: pointer;
+}
+
+#filmes .filme-detalhes {
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+#filmes .filme-detalhes ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#filmes .filme-detalhes
+
+.catalogos{
+    margin-left: 70px;
+}
+
+img{
+    box-shadow: 0px 0px 10px black;
+}
+
+.titulo{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0px 0px 10px black;
+    color: #ffffff;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
